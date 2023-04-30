@@ -12,7 +12,7 @@ This repository contains personalized configuration files for popular developmen
 git clone https://github.com/leosebben/.dotfiles.git ~/.dotfiles --depth 1
 ```
 
-## Plugins and Tools
+## Neovim Plugins
 
 | Icon | Plugin | Description |
 | --- | --- | --- |
