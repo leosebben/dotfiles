@@ -14,32 +14,19 @@ git clone https://github.com/leosebben/.dotfiles.git ~/.dotfiles --depth 1
 
 ## Plugins and Tools
 
-<div class="cards">
-
-  <div class="card">
-    <h3>wbthomason/packer.nvim</h3>
-    <p>Lightweight plugin manager for Neovim.</p>
-  </div>
-
-  <div class="card">
-    <h3>nvim-tree/nvim-tree.lua</h3>
-    <p>File explorer with a tree-like view of your project structure.</p>
-  </div>
-
-  <div class="card">
-    <h3>nvim-treesitter/nvim-treesitter</h3>
-    <p>Advanced syntax highlighting and code folding using the Tree-sitter parsing library.</p>
-  </div>
-
-  <div class="card">
-    <h3>NvChad/nvterm</h3>
-    <p>Plugin for managing terminal buffers in Neovim.</p>
-  </div>
-
-  <div class="card">
-    <h3>nvim-lualine/lualine.nvim</h3>
-    <p>Lightweight and customizable status line plugin.</p>
-  </div>
-
-  <div class="card">
-    <h3>folke/tokyonight.nvim</h3>
+| Icon | Plugin | Description |
+| --- | --- | --- |
+| 📦 | **wbthomason/packer.nvim** | Lightweight plugin manager for Neovim. |
+| 🌳 | **nvim-tree/nvim-tree.lua** | File explorer with a tree-like view of your project structure. |
+| 🐍 | **neovim/nvim-lspconfig** | Collection of configurations for built-in LSP client in Neovim. |
+| 🔧 | **williamboman/mason.nvim** | Configurable and extendable snippets plugin for Neovim. |
+| 🔨 | **williamboman/mason-lspconfig.nvim** | LSP configuration for Mason snippets plugin. |
+| 🔍 | **nvim-telescope/telescope.nvim** | Highly extensible fuzzy finder plugin for Neovim. |
+| 🎨 | **nvim-treesitter/nvim-treesitter** | Advanced syntax highlighting and code folding using the Tree-sitter parsing library. |
+| 🖥️ | **NvChad/nvterm** | Plugin for managing terminal buffers in Neovim. |
+| 🎉 | **nvim-lualine/lualine.nvim** | Lightweight and customizable status line plugin. |
+| 💬 | **tpope/vim-commentary** | Comment and uncomment lines efficiently. |
+| 🚀 | **ThePrimeagen/harpoon** | Navigate through directories and files efficiently. |
+| 🎁 | **tpope/vim-surround** | Easily add, change, and delete surroundings in pairs (such as quotes or parentheses). |
+| 🌲 | **mbbill/undotree** | Visualize and navigate through undo history in Neovim. |
+| 🎆 | **folke/tokyonight.nvim** | Beautiful and customizable colorscheme inspired by Tokyo's night life. |
