@@ -81,6 +81,7 @@ vim.keymap.set('n', '<leader>u', vim.cmd.UndotreeToggle, opts)
 vim.keymap.set('n', '<leader>g', ':G ')
 vim.keymap.set('n', '<leader>gg', ':G<CR>', opts)
 vim.keymap.set('n', '<leader>gd', ':Gvdiffsplit<CR>', opts)
+vim.keymap.set('n', '<leader>gc', ':G commit<CR>', opts)
 
 -- Git Signs
 vim.keymap.set('n', '<leader>gt', ':Gitsigns toggle_signs<CR>', opts)
