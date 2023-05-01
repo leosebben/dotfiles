@@ -18,7 +18,11 @@ vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv", opts)
 vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv", opts)
 vim.keymap.set('n', 'n', 'nzzzv', opts)
 vim.keymap.set('n', 'N', 'Nzzzv', opts)
-vim.keymap.set('n', '<leader>zi', ':vertical resize 1000<CR>', opts)
+
+-- View Resizes
+vim.keymap.set('n', '<leader>rm', ':resize 5<CR>', opts)
+vim.keymap.set('n', '<leader>rM', ':resize 20<CR>', opts)
+vim.keymap.set('n', '<leader>rr', '<C-w>=', opts)
 
 -- Buffers
 vim.keymap.set('x', '<leader>p', '\"_dP', opts)
