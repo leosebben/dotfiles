@@ -6,10 +6,14 @@ local opts = { noremap = true, silent = true }
 -- General
 vim.keymap.set('n', '<leader>nh', ':nohl<CR>', opts)
 vim.keymap.set('n', '<C-f>', ':!tmux neww tmux-sessionizer<CR>', opts)
-vim.keymap.set('n', '<leader>sh', '<C-w>h', opts)
-vim.keymap.set('n', '<leader>sj', '<C-w>j', opts)
-vim.keymap.set('n', '<leader>sk', '<C-w>k', opts)
-vim.keymap.set('n', '<leader>sl', '<C-w>l', opts)
+vim.keymap.set('n', '<C-h>', '<C-w>h', opts)
+vim.keymap.set('n', '<C-j>', '<C-w>j', opts)
+vim.keymap.set('n', '<C-k>', '<C-w>k', opts)
+vim.keymap.set('n', '<C-l>', '<C-w>l', opts)
+vim.keymap.set('t', '<C-h>', '<C-\\><C-n><C-w>h', opts)
+vim.keymap.set('t', '<C-j>', '<C-\\><C-n><C-w>j', opts)
+vim.keymap.set('t', '<C-k>', '<C-\\><C-n><C-w>k', opts)
+vim.keymap.set('t', '<C-l>', '<C-\\><C-n><C-w>l', opts)
 
 -- Movement
 vim.keymap.set('n', '<C-d>', '10jzz', opts)
