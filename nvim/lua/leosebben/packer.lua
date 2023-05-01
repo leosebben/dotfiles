@@ -61,5 +61,12 @@ return require('packer').startup(function(use)
 
   -- Colorscheme
   use { 'folke/tokyonight.nvim' }
+  use { "catppuccin/nvim", as = "catppuccin" }
+
+  -- Shotcuts
+  use { 'tpope/vim-commentary' }    -- Commentary
+  use { 'tpope/vim-surround' }      -- Surround
+  use { 'ThePrimeagen/harpoon' }    -- Harpoon
+  use { 'mbbill/undotree' }         -- Undotree
 
 end)
