@@ -58,10 +58,9 @@ return require('packer').startup(function(use)
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   }
 
-  use { 'tpope/vim-commentary' }  -- Commentary
-  use { 'ThePrimeagen/harpoon' }  -- Harpoon
-  use { 'tpope/vim-surround' }    -- Surround
-  use { 'mbbill/undotree' }       -- Undotree
+  -- Git
+  use { 'tpope/vim-fugitive' }
+  use { 'lewis6991/gitsigns.nvim' }
 
   -- Colorscheme
   use { 'folke/tokyonight.nvim' }

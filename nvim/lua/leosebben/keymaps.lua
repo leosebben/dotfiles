@@ -69,3 +69,16 @@ vim.keymap.set('n', '<leader>th', function() terminal.toggle('horizontal') end)
 
 -- Undotree
 vim.keymap.set('n', '<leader>u', vim.cmd.UndotreeToggle, opts)
+
+-- Git Fugitive
+vim.keymap.set('n', '<leader>g', ':G ')
+vim.keymap.set('n', '<leader>gg', ':G<CR>', opts)
+vim.keymap.set('n', '<leader>gd', ':Gvdiffsplit<CR>', opts)
+
+-- Git Signs
+vim.keymap.set('n', '<leader>gt', ':Gitsigns toggle_signs<CR>', opts)
+vim.keymap.set('n', '<leader>gl', ':Gitsigns toggle_linehl<CR>', opts)
+vim.keymap.set('n', '<leader>gn', ':Gitsigns toggle_numhl<CR>', opts)
+vim.keymap.set('n', '<leader>gb', ':Gitsigns blame_line<CR>', opts)
+vim.keymap.set('n', '<leader>gs', ':Gitsigns stage_hunk<CR>', opts)
+vim.keymap.set('n', '<leader>gu', ':Gitsigns reset_hunk<CR>', opts)
