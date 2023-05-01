@@ -11,7 +11,7 @@ require("nvterm").setup({
         height = 0.7,
         border = "single",
       },
-      horizontal = { location = "rightbelow", split_ratio = .5, },
+      horizontal = { location = "rightbelow", split_ratio = .6, },
       vertical = { location = "rightbelow", split_ratio = .5 },
     }
   },

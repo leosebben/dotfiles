@@ -1,7 +1,7 @@
 -- General
 vim.cmdheight = 2
 vim.opt.wrap = false
-vim.opt.splitbelow = true
+vim.opt.splitbelow = false
 vim.opt.splitright = true
 vim.opt.termguicolors = true
 

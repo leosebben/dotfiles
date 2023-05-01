@@ -13,32 +13,29 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
-  -- Mason LSP
+  -- LSP
   use {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
   }
 
-  -- Tree
+  -- File Explore
   use {
 	  'nvim-tree/nvim-tree.lua',
 	  requires = {
 		  'nvim-tree/nvim-web-devicons', -- optional
 	  },
-	  config = function()
-		  require("nvim-tree").setup {}
-	  end
   }
 
-  -- Telescope
+  -- Fuzzy Finder
   use {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.1',
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
 
-  -- Treesitter
+  -- Syntax Highlighting
   use {
 	  'nvim-treesitter/nvim-treesitter',
 	  run = ':TSUpdate'
@@ -52,7 +49,7 @@ return require('packer').startup(function(use)
     end,
   }
 
-  -- Lualine
+  -- Status Line
   use {
     'nvim-lualine/lualine.nvim',
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
