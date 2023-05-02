@@ -6,7 +6,15 @@
 
 This repository contains personalized configuration files for popular development tools such as NeoVim, Tmux, and Zsh. The configurations are tailored to complement the iTerm2 terminal emulator, which employs a custom color scheme that I made based on [common](https://github.com/jackharrisonsherlock/common).
 
-## Quick Install
+## Installation
+
+### Packer
+
+```
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+```
+
+### Dotfiles
 
 ```
 git clone https://github.com/leosebben/.dotfiles.git ~/.dotfiles --depth 1
