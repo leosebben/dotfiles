@@ -30,3 +30,5 @@ git clone https://github.com/leosebben/.dotfiles.git ~/.dotfiles --depth 1
 | 🎁 | **tpope/vim-surround** | Easily add, change, and delete surroundings in pairs (such as quotes or parentheses). |
 | 🌲 | **mbbill/undotree** | Visualize and navigate through undo history in Neovim. |
 | 🎆 | **folke/tokyonight.nvim** | Beautiful and customizable colorscheme inspired by Tokyo's night life. |
+| 🕵️ | **tpope/vim-fugitive** | Git integration and command wrapper for Neovim. |
+| 📝 | **lewis6991/gitsigns.nvim** | Git decorations, such as signs and highlights, for Neovim. |
