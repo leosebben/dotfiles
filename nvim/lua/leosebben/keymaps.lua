@@ -16,8 +16,8 @@ vim.keymap.set('t', '<C-k>', '<C-\\><C-n><C-w>k', opts)
 vim.keymap.set('t', '<C-l>', '<C-\\><C-n><C-w>l', opts)
 
 -- Movement
-vim.keymap.set('n', '<C-d>', '10jzz', opts)
-vim.keymap.set('n', '<C-u>', '10kzz', opts)
+vim.keymap.set('n', '<C-d>', '10jzz0', opts)
+vim.keymap.set('n', '<C-u>', '10kzz0', opts)
 vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv", opts)
 vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv", opts)
 vim.keymap.set('n', 'n', 'nzzzv', opts)
