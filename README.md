@@ -6,7 +6,15 @@
 
 This repository contains personalized configuration files for popular development tools such as NeoVim, Tmux, and Zsh. The configurations are tailored to complement the iTerm2 terminal emulator, which employs a custom color scheme that I made based on [common](https://github.com/jackharrisonsherlock/common).
 
-## Quick Install
+## Installation
+
+### Packer
+
+```
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+```
+
+### Dotfiles
 
 ```
 git clone https://github.com/leosebben/.dotfiles.git ~/.dotfiles --depth 1
@@ -30,3 +38,5 @@ git clone https://github.com/leosebben/.dotfiles.git ~/.dotfiles --depth 1
 | 🎁 | **tpope/vim-surround** | Easily add, change, and delete surroundings in pairs (such as quotes or parentheses). |
 | 🌲 | **mbbill/undotree** | Visualize and navigate through undo history in Neovim. |
 | 🎆 | **folke/tokyonight.nvim** | Beautiful and customizable colorscheme inspired by Tokyo's night life. |
+| 🕵️ | **tpope/vim-fugitive** | Git integration and command wrapper for Neovim. |
+| 📝 | **lewis6991/gitsigns.nvim** | Git decorations, such as signs and highlights, for Neovim. |
