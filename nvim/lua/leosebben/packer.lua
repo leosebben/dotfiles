@@ -67,6 +67,5 @@ return require('packer').startup(function(use)
   use { 'tpope/vim-commentary' }    -- Commentary
   use { 'tpope/vim-surround' }      -- Surround
   use { 'ThePrimeagen/harpoon' }    -- Harpoon
-  use { 'mbbill/undotree' }         -- Undotree
 
 end)
