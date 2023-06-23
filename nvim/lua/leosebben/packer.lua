@@ -55,10 +55,6 @@ return require('packer').startup(function(use)
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   }
 
-  -- Git
-  use { 'tpope/vim-fugitive' }
-  use { 'lewis6991/gitsigns.nvim' }
-
   -- Colorscheme
   use { 'folke/tokyonight.nvim' }
   use { "catppuccin/nvim", as = "catppuccin" }

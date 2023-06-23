@@ -79,11 +79,6 @@ _G.packer_plugins = {
     path = "/Users/leo-sebben/.local/share/nvim/site/pack/packer/start/catppuccin",
     url = "https://github.com/catppuccin/nvim"
   },
-  ["gitsigns.nvim"] = {
-    loaded = true,
-    path = "/Users/leo-sebben/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
-    url = "https://github.com/lewis6991/gitsigns.nvim"
-  },
   harpoon = {
     loaded = true,
     path = "/Users/leo-sebben/.local/share/nvim/site/pack/packer/start/harpoon",
@@ -154,11 +149,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/leo-sebben/.local/share/nvim/site/pack/packer/start/vim-commentary",
     url = "https://github.com/tpope/vim-commentary"
-  },
-  ["vim-fugitive"] = {
-    loaded = true,
-    path = "/Users/leo-sebben/.local/share/nvim/site/pack/packer/start/vim-fugitive",
-    url = "https://github.com/tpope/vim-fugitive"
   },
   ["vim-surround"] = {
     loaded = true,

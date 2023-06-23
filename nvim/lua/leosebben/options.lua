@@ -19,8 +19,8 @@ vim.opt.signcolumn = 'yes'
 -- Identation
 vim.opt.smartindent = true
 vim.opt.expandtab = true
-vim.opt.shiftwidth = 2
-vim.opt.tabstop = 2
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
 
 -- Scroll
 vim.opt.scrolloff = 8

@@ -74,9 +74,6 @@ vim.keymap.set('n', '<leader>tf', function() terminal.toggle('float') end)
 vim.keymap.set('n', '<leader>tv', function() terminal.toggle('vertical') end)
 vim.keymap.set('n', '<leader>th', function() terminal.toggle('horizontal') end)
 
--- Undotree
-vim.keymap.set('n', '<leader>u', vim.cmd.UndotreeToggle, opts)
-
 -- Git Fugitive
 vim.keymap.set('n', '<leader>g', ':G ')
 vim.keymap.set('n', '<leader>gg', ':G<CR>', opts)
